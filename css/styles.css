@@ -381,16 +381,27 @@ body  {
 }
 
 .social-footer {
-  justify-content: flex-start;
+  justify-content: start;
+  margin: 0;
 }
 
 .social-footer-img {
   margin: 0;
   padding: 12px;
-  margin-right: 10px;
   display: block;
 }
 
+.social-footer-link {
+  height: 44px;
+  width: 44px;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+
+.social-footer-link:hover {
+  background-color: var(--accent-color);
+}
 
 .contacts-footer {
   font-weight: 400;
