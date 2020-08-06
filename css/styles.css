@@ -86,7 +86,13 @@ body  {
 
 .contacts {
   display: flex;
-  align-items: center;
+  margin-left: auto;
+}
+
+.contacts .list {
+  display: flex;
+  align-items: baseline;
+  display: block;
 }
 
 .contacts-icon {
@@ -389,10 +395,11 @@ body  {
   margin-left: 0;
 }
 
-.social-footer-img {
+.footer-icon {
   margin: 0;
   padding: 12px;
   display: block;
+  fill: var(--accent-color-white)
 }
 
 .social-footer-link {

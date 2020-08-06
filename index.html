@@ -15,8 +15,8 @@
             <nav class="navigation">
                 <a href="./" class="menu-link">
                     <div class="logo">
-                    <span class="logo-web">Web</span>
-                    <span class="logo-studio">Studio</span>
+                        <span class="logo-web">Web</span>
+                        <span class="logo-studio">Studio</span>
                     </div>
                 </a>
                     <ul class="list menu-list">
@@ -26,12 +26,24 @@
                     </ul>
             </nav>
             <div class="contacts">
-                <svg class="icon">
-                    <use xlink:href="./images/sprite.svg#mail"></use>
-                </svg>
-                <a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a>                       
-                <img src="./images/phone.svg" alt="Телефон" class="contacts-img">
-                <a href="tel:380961111111" class="phone-link">+38 096 111 11 11</a>
+                <ul class="list">
+                    <li class="contacts-item">
+                        <a href="mailto:info@devstudio.com" class="mail-link">
+                            <svg class="icon" weight="16px" height="11px">
+                                <use xlink:href="./images/sprite.svg#mail"></use>
+                            </svg>
+                            <span>info@devstudio.com</span>
+                        </a>
+                    </li>
+                    <li class="contacts-item">
+                        <a href="tel:380961111111" class="phone-link">
+                            <svg class="icon" weight="10px" height="15px">
+                                <use xlink:href="./images/sprite.svg#phone"></use>
+                            </svg>
+                            <span>+38 096 111 11 11</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div> 
     </header>
@@ -274,22 +286,28 @@
                         <ul class="list social-footer flexbox">
                             <li class="social-footer-link">
                                 <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                                    <img class="social-footer-img" src="./images/footer/instagram.svg" alt="Instagram">
+                                    <svg class="footer-icon" width="20px" height="20px">
+                                        <use xlink:href="./images/sprite.svg#instagram"></use>
+                                    </svg>
                                 </a>
                             </li>
                             <li class="social-footer-link">
                                 <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
-                                    <img class="social-footer-img" src="./images/footer/twitter.svg" alt="Twitter">
+                                    <svg class="footer-icon" width="20px" height="20px">
+                                        <use xlink:href="./images/sprite.svg#twitter"></use>
+                                    </svg>
                                 </a>
                             </li>
                             <li class="social-footer-link">
                                 <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-                                    <img class="social-footer-img" src="./images/footer/facebook.svg" alt="Facebook">
+                                    <svg class="footer-icon" width="20px" height="20px">
+                                        <use xlink:href="./images/sprite.svg#facebook"></use>
+                                    </svg>
                                 </a>
                             </li>
                             <li class="social-footer-link">
                                 <a href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noopener noreferrer">
-                                    <svg class="social-footer-img" width="20px" height="20px">
+                                    <svg class="footer-icon" width="20px" height="20px">
                                         <use xlink:href="./images/sprite.svg#linkedin"></use>
                                       </svg>
                                 </a>
