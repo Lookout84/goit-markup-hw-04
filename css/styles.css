@@ -92,11 +92,21 @@ img {
 
 .contacts {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin-left: auto;
 }
 
-.contacts-img {
+.contacts .list {
+  display: block;
+}
+
+.contacts-icon {
   margin-right: 10px;
+  display: inline-block;
+}
+
+.contacts-text {
+  align-items: center;
 }
 
 .menu-link,
@@ -395,10 +405,11 @@ img {
   margin-left: 0;
 }
 
-.social-footer-img {
+.footer-icon {
   margin: 0;
   padding: 12px;
   display: block;
+  fill: var(--accent-color-white)
 }
 
 .social-footer-link {
