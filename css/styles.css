@@ -86,18 +86,21 @@ body  {
 
 .contacts {
   display: flex;
+  justify-content: center;
   margin-left: auto;
 }
 
 .contacts .list {
-  display: flex;
-  align-items: baseline;
   display: block;
 }
 
 .contacts-icon {
   margin-right: 10px;
   display: inline-block;
+}
+
+.contacts-text {
+  align-items: center;
 }
 
 .menu-link,
