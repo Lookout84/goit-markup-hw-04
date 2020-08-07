@@ -103,19 +103,14 @@ img {
 }
 
 .contacts {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   margin-left: auto;
 }
 
-.contacts .list {
-  display: block;
-}
-
 .contacts-icon {
   margin-right: 10px;
-  display: inline-block;
-  fill: #757575;
+  fill: var(--grey-text-color);
 }
 
 .contacts-text {
