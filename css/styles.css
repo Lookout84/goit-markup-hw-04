@@ -349,7 +349,7 @@ img {
 
 .clients-link {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .clients-item {
