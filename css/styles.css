@@ -114,9 +114,10 @@ img {
   vertical-align: middle;
 }
 
-.contacts-text {
-  align-items: center;
-}
+.contacts-icon:hover,
+.contacts-icon:focus {
+  fill: var(--accent-color)
+} 
 
 .menu-link,
 .mail-link,
