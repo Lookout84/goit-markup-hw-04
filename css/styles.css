@@ -420,10 +420,8 @@ img {
 }
 
 .footer-icon {
-  /*margin: 0;
-  padding: 12px;
-  display: block;*/
   fill: var(--accent-color-white);
+  margin-top: 12px;
 }
 
 .social-footer-link {
