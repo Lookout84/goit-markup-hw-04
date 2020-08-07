@@ -370,6 +370,7 @@ img {
 .clients-icon {
   display: block;
   fill: #AFB1B8;
+  vertical-align: middle;
 }
 
 .clients-item .clients-icon:hover,
