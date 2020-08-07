@@ -426,7 +426,7 @@ img {
   padding: 12px;
   display: block;*/
   fill: var(--accent-color-white);
-  vertical-align: middle;  
+  text-align: center;  
 }
 
 .social-footer-link {
