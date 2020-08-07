@@ -426,11 +426,6 @@ img {
   fill: var(--accent-color-white);
 }
 
-.footer-icon:hover,
-.footer-icon:focus {
-  fill: var(--accent-color);
-}
-
 .social-footer-link {
   height: 44px;
   width: 44px;
