@@ -116,10 +116,15 @@ img {
   vertical-align: middle;
 }
 
-.contacts-icon:hover,
-.contacts-icon:focus {
+.mail-link:hover .contacts-icon,
+.mail-link:focus .contacts-icon {
   fill: var(--accent-color)
 } 
+
+.phone-link:hover .contacts-icon,
+.phone-link:focus .contacts-icon {
+  fill: var(--accent-color)
+}
 
 .menu-link,
 .mail-link,
@@ -351,8 +356,8 @@ img {
   background-color: var(--accent-color);
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.social-item:hover .social-icon,
+.social-item:focus .social-icon {
   fill: var(--accent-color-white);
 }
 
@@ -382,11 +387,15 @@ img {
 .clients-icon {
   fill: #AFB1B8;
   display: block;
-  
 }
 
-.clients-item .clients-icon:hover,
-.clients-item .clients-icon:focus {
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.clients-item:hover .clients-icon,
+.clients-item:focus .clients-icon {
   fill: var(--accent-color)
 }
 
