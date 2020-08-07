@@ -368,6 +368,7 @@ img {
 }
 
 .clients-icon {
+  display: block;
   fill: #AFB1B8;
 }
 
