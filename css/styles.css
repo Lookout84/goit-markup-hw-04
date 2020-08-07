@@ -111,6 +111,7 @@ img {
 .contacts-icon {
   margin-right: 10px;
   fill: var(--grey-text-color);
+  vertical-align: middle;
 }
 
 .contacts-text {
