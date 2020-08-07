@@ -358,6 +358,9 @@ img {
   width: 170px;
   height: 90px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .clients-item:nth-child(6n) {
@@ -366,6 +369,7 @@ img {
 
 .clients-icon {
   fill: #AFB1B8;
+  display: block;
   
 }
 
@@ -421,7 +425,7 @@ img {
 
 .footer-icon {
   fill: var(--accent-color-white);
-  margin-top: 12px;
+  display: block;
 }
 
 .social-footer-link {
@@ -429,7 +433,9 @@ img {
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-footer-link:not(:last-child) {
