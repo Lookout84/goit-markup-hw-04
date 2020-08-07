@@ -105,8 +105,6 @@ img {
 
 .contacts {
   vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -396,7 +394,7 @@ img {
 
 .clients-item:hover .clients-icon,
 .clients-item:focus .clients-icon {
-  fill: var(--accent-color)
+  fill: var(--accent-color);
 }
 
 .address {
