@@ -372,8 +372,8 @@ img {
   fill: #AFB1B8;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-item .clients-icon:hover,
+.clients-item .clients-icon:focus {
   fill: var(--accent-color)
 }
 
