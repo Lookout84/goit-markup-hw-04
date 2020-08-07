@@ -46,3 +46,7 @@
 <svg class="icon">
   <use xlink:href="#twitter"></use>
 </svg>
+
+wight="16px" height="11px"
+
+wight="10px" height="15px"
