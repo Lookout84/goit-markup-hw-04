@@ -429,6 +429,11 @@ img {
   text-align: center;  
 }
 
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: var(--accent-color);
+}
+
 .social-footer-link {
   height: 44px;
   width: 44px;
@@ -441,7 +446,8 @@ img {
 }
 
 
-.social-footer-link:hover {
+.social-footer-link:hover,
+.social-footer-link:focus {
   background-color: var(--accent-color);
 }
 
