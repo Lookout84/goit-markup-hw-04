@@ -103,8 +103,10 @@ img {
 }
 
 .contacts {
-  vertical-align: center;
+  vertical-align: middle;
   margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .contacts-icon {
