@@ -102,16 +102,14 @@ img {
   margin-right: 50px;
 }
 
-/*.contacts {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;*/
+.contacts {
+  vertical-align: middle;
+  margin-left: auto;
 }
 
 .contacts-icon {
   margin-right: 10px;
   fill: var(--grey-text-color);
-  vertical-align: middle;
 }
 
 .contacts-icon:hover,
