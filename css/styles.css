@@ -373,6 +373,10 @@ img {
   margin-right: auto;
 }
 
+.clients-item .clients-icon:hover,
+.clients-item .clients-icon:focus {
+  fill: var(--accent-color)
+}
 
 .address {
   font-style: normal;
