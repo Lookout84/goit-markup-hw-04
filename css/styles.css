@@ -369,6 +369,8 @@ img {
 .clients-icon {
   fill: #AFB1B8;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
