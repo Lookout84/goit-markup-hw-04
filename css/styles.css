@@ -390,7 +390,6 @@ img {
 .clients-item:hover,
 .clients-item:focus-within {
   border: 1px solid var(--accent-color);
-  outline: none;
 }
 
 .clients-item:hover .clients-icon,
@@ -398,7 +397,9 @@ img {
   fill: var(--accent-color);
 }
 
-a:focus {
+.social-item a:focus,
+.clients-item a:focus,
+.social-footer-link a:focus {
   outline: none;
 }
 
